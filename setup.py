@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='senseis',
+    description='',
+    author='senseis',
+    author_email='',
+    url='',
+    packages=find_packages(exclude=['']),
+    package_data={},
+    data_files={},
+    install_requires=[
+        'numpy',
+        'jupyter',
+        'pandas',
+        'matplotlib',
+        'scipy',
+        'scikit-learn',
+        'torch',
+        'lightning',
+        'tensorboard',
+        'pygame',
+        'kaggle-environments',
+    ],
+    entry_points={},
+    scripts=[],
+    zip_safe=False,
+    version='0.0.1',
+)
